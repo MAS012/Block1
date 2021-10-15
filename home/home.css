@@ -1,7 +1,43 @@
 .welcome {
-    background-image: url(../home/img/Homepage.png);
-    height: 500px;
+    background-image: url(../home/img/cat1.jpg);
+    height: 700px;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
+}
+.dark {
+    background-color: rgb(40, 40, 40);
+}
+.sidebar-link {
+    text-decoration: none;
+
+}
+.sidebar-link:hover{
+    color: rosybrown;
+}
+.btn-fkn:hover{
+    background-color: rosybrown;
+    color: black;
+    fill: black;
+}
+.menu-link {
+    float: right;
+    padding: 10px;
+    text-decoration: none;
+    border: 0.5px solid rosybrown;
+    border-right: 3px solid rosybrown;
+    border-bottom: 3px solid rosybrown;
+    border-radius: 10px;
+    color: rosybrown;
+    margin: 0 5px;
+}
+.menu-link:hover {
+    background-color: rosybrown;
+    color: black;
+    padding: 10px 13px 13px 10px;
+    border: 0.5px solid rgb(40, 40, 40);
+    transition: .3s ease-in-out;
+    transition-property: all;
+    transition-duration: .3s all;
+    transition-timing-function: ease-in-out all;
 }
