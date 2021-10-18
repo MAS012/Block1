@@ -1,5 +1,5 @@
 .welcome {
-    background-image: url(../img/cat1.jpg);
+    background-image: url(/img/cat1.jpg);
     height: 700px;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
