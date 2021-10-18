@@ -1,7 +1,13 @@
 .welcome {
-    background-image: url(../home/img/Homepage.png);
+    background-image: url(../home/img/Homepage.png) no-repeat center top / cover;
+    background-size: 100%;
+    width: 930px;
     height: 500px;
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover;
+}
+ul .navbar-nav {
+    display: inline-block;
+    margin-left: 80px;
+}
+li .nav-item {
+    display: inline;
 }
