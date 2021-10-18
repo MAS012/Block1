@@ -1,6 +1,6 @@
 let vendingMachine = {};
-let payAmount = 2.7;
-let productNum = 6;
+let payAmount = 2;
+let productNum = 4;
 const click = () => {
     if (vendingMachine == false){
         console.log("Turning it off...");
