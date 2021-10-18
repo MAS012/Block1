@@ -1,23 +1,16 @@
 .welcome {
-<<<<<<< HEAD
-    background-image: url(../home/img/Homepage.png) no-repeat center top / cover;
-    background-size: 100%;
-    width: 930px;
-    height: 500px;
+    background-image: url(/img/cat1.jpg);
+    height: 700px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
 }
 ul .navbar-nav {
     display: inline-block;
     margin-left: 80px;
 }
 li .nav-item {
-    display: inline;
-}
-=======
-    background-image: url(../home/img/cat1.jpg);
-    height: 700px;
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover;
+    display: inline;  
 }
 .dark {
     background-color: rgb(40, 40, 40);
@@ -55,4 +48,4 @@ li .nav-item {
     transition-duration: .3s all;
     transition-timing-function: ease-in-out all;
 }
->>>>>>> 7da69e4e59ac916ba2da90ed4560cce021dfcdd9
+
