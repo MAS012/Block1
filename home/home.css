@@ -113,25 +113,7 @@ li .nav-item {
       
     } 
 }
-@media only screen and (min-device-width: 414px) and (max-device-width: 828px) {
-    .navbar-nav {
-        margin-top: 50px;
-        text-align: center;
-        float: center;
-
-    }
-    .menu-link {
-        position: relative;
-        float: left;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        background-color: black;
-        margin:auto;
-      
-    }
-}
-@media only screen and (min-device-width: 320px) and (max-device-width: 828px) {
+@media only screen and (min-device-width: 414px) and (max-device-width: 896px) {
     .navbar-nav {
         margin-top: 50px;
         text-align: center;
