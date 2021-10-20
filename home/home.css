@@ -56,7 +56,7 @@ li .nav-item {
     width: device-width;
     zoom:1;
  }
- 
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
     .navbar-nav {
         margin-top: 50px;
@@ -118,7 +118,7 @@ li .nav-item {
       
     } 
 }
-@media only screen and (min-device-width: 414px) and (max-device-width: 896px) {
+@media only screen and (min-device-width: 414px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 2) {
     .navbar-nav {
         margin-top: 50px;
         text-align: center;
