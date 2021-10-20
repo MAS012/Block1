@@ -1,3 +1,7 @@
+* {
+    margin:0;
+    padding:0;
+}
 .welcome {
     background-image: url(/home/img/cat1.jpg);
     height: 700px;
@@ -29,7 +33,7 @@ li .nav-item {
 }
 .menu-link {
     float: right;
-    padding: 10px;
+    padding: 10px 10px 10px 5px;
     text-decoration: none;
     border: 0.5px solid rosybrown;
     border-right: 3px solid rosybrown;
@@ -40,12 +44,29 @@ li .nav-item {
 }
 .menu-link:hover {
     background-color: rosybrown;
-    color: black;
     padding: 10px 13px 13px 10px;
     border: 0.5px solid rgb(40, 40, 40);
     transition: .3s ease-in-out;
     transition-property: all;
     transition-duration: .3s all;
     transition-timing-function: ease-in-out all;
+    color: black;
 }
+@media only screen and (max-width: 575px) {
+    .navbar-nav {
+        margin-top: 50px;
+        text-align: center;
+        float: center;
 
+    }
+    .menu-link {
+        position: relative;
+        float: left;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background-color: black;
+        margin:auto;
+      
+    }
+}
