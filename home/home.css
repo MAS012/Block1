@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
 }
+/* Welcome Page Beginning */
 .wlcm {
     background-image: url(/home/img/cat1.jpg);
     height: 850px;
@@ -9,15 +10,18 @@
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
 }
-nav.navbar {
+/* Navbar */
+div.navbar {
     display: inline-block;
     margin-bottom:20px;
     width:100%;
 }
+/* Navbar list */
 ul .navbar-nav {
     display: inline-block;
     margin-left: 80px;
 }
+/* Setting design for list items */
 li .nav-item {
     display: inline;  
 }
@@ -58,6 +62,7 @@ li .nav-item {
     transition-timing-function: ease-in-out all;
     color: black;
 }
+/* Welcome text and button */
 .greeting {
     width: 100%;
     display: inline-block;
@@ -78,6 +83,7 @@ li .nav-item {
     left: 50%;
     transform: translate(50%);
 }
+/* Get started button */
 .grt-btn {
     margin-top: 20px;
     padding:20px 18px;
@@ -105,9 +111,11 @@ li .nav-item {
     border-right: 2px whitesmoke;
     border-bottom: 2px solid whitesmoke;
 }
+/* Modal */
 .modal-content {
     background-color: rgb(120, 90, 0);
 }
+/* Modal form edits */
 input[type=text], select {
     width: 100%;
     padding: 12px 20px;
@@ -138,7 +146,7 @@ input[type=text], select {
     background-color:transparent;
     padding: 20px;
   }
-
+/* Clients */
 .clients {
     padding: 20px 20px;
     max-width: 100%;
@@ -153,11 +161,13 @@ input[type=text], select {
 .client-img:hover{
     filter: grayscale(0);
 }
+/* Listings feed */
 .feed-title {
     padding: 30px;
     margin-top:40px;
     text-align: center;
 }
+/* Listing */
 .feed-item {
     margin-bottom: 30px;
     overflow: hidden;
@@ -167,6 +177,7 @@ position: relative;
   top: 0;
   transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
+/* Listing info */
 .feed-info {
     opacity: 0;
     position: absolute;
@@ -183,6 +194,7 @@ position: relative;
     color: #fff;
     font-weight: 600;
   }
+  /* Undone, link to details.html*/
 .preview-link , .details-link {
     position: absolute;
   right: 50px;
@@ -204,6 +216,7 @@ position: relative;
     opacity: 1;
     bottom: 0;
 }
+/* Contact */
 section.contact {
     background-color: rgb(93, 51, 120);
     padding: 50px;
@@ -211,6 +224,7 @@ section.contact {
 section.contact div.container {
     width:50%;
 }
+/* Contact Button */
 .contact-btn {
     font-size: 16px;
     letter-spacing: 1px;
@@ -227,6 +241,7 @@ section.contact div.container {
     background-color: #ffc311d3;
     color:white;
 }
+/* FAQs */
 .faq {
     background-color: rgba(222, 222, 222, 0.7);
 }
@@ -246,6 +261,7 @@ section.contact div.container {
     padding-bottom: 60px;
     margin-bottom: 0;
 }
+
 .faq-list li {
     padding: 20px;
     margin: 10px 0;
@@ -253,7 +269,7 @@ section.contact div.container {
     border-radius: 4px;
     position: relative;
     margin-bottom: 0;
-}
+}/* FAQ questions */
 .faq-list a {
     display: block;
     text-decoration: none;
@@ -276,6 +292,7 @@ section.contact div.container {
 .faq-list a.collapsed:hover {
     color: rgb(219, 165, 159);
 }
+/* FAQ answers all below*/
 div#faq-info-2.collapse.show {
     transition: 0.4s ease;
 }
@@ -300,6 +317,7 @@ div#faq-info-4.collapse.show {
 div#faq-info-5.collapse.show {
     padding-top: 20px;
 }
+/* Footer */
 #footer {
     background-color: rgba(162, 162, 162, 0.723);
 }
@@ -307,7 +325,7 @@ div#faq-info-5.collapse.show {
     width: device-width;
     zoom:1;
  }
-
+/* For mobile Devices */
 @media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
     .navbar {
         margin: 0;
@@ -338,6 +356,8 @@ div#faq-info-5.collapse.show {
     }
 
 }
+/* Different width, because I've been testing */
+/* Iphone X */
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
@@ -360,6 +380,8 @@ div#faq-info-5.collapse.show {
     } 
 
 }
+/* Different width, because I've been testing */
+/* Iphone 6,7,8 */
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
@@ -381,6 +403,8 @@ div#faq-info-5.collapse.show {
       
     } 
 }
+/* Different width, because I've been testing */
+/* Iphone XR */
 @media only screen and (min-device-width: 414px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 2) {
     .navbar-nav {
         margin-top: 50px;

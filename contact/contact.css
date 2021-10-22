@@ -1,20 +1,104 @@
-<!DOCTYPE html>
-<html>
-    <head>
+body {
+    margin: 0;
+    padding: 0;
+}
+/* Navbar */
+div.navbar {
+    display: inline-block;
+    border-radius: 0px 0px 10px 10px;
+    background-color: rgb(59, 59, 59);
+    margin-bottom:20px;
+    width:100%;
+}
+/* Navbar List */
+ul .navbar-nav {
+    display: inline-block;
+    margin-left: 80px;
+}
+li .nav-item {
+    display: inline;  
+}
+.dark {
+    background-color: rgb(40, 40, 40);
+}
+/* Offcanvas menu links */
+.sidebar-link {
+    text-decoration: none;
 
-    </head>
-    <body>
-
-    </body>
-
-    <Script>
-        const marvel = [
-            "Iron-Man",
-            "Thor",
-            "Captain America",
-            "Spider Man"
-        ]
-        marvel.push("Quicksilver")
-        console.log(marvel[4])
-    </Script>
-    </html>
+}
+.sidebar-link:hover{
+    color: rosybrown;
+}
+/* Offcanvas Button*/
+.btn-fkn:hover{
+    background-color: rosybrown;
+    color: black;
+    fill: black;
+}
+/* Navbar Menu */
+.menu-link {
+    float: right;
+    padding: 10px 10px 10px 5px;
+    text-decoration: none;
+    border: 0.5px solid rosybrown;
+    border-right: 3px solid rosybrown;
+    border-bottom: 3px solid rosybrown;
+    border-radius: 10px;
+    color: rosybrown;
+    margin: 0 5px;
+    transition: .3s ease-in-out;
+}
+.menu-link.active {
+    background-color: rosybrown;
+    color: black;
+}
+.menu-link:hover {
+    background-color: rosybrown;
+    padding: 10px 13px 13px 10px;
+    border: 0.5px solid rgb(40, 40, 40);
+    transition: .3s ease-in-out;
+    transition-property: all;
+    transition-duration: .3s all;
+    transition-timing-function: ease-in-out all;
+    color: black;
+}
+/* Form inputs */
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input#msg {
+      width: 100%;
+      height: 200px;
+  }
+  input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 30%;
+    transform: translate(115%);
+    background-color: #af7d4c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #b9552b;
+  }

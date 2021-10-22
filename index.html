@@ -11,18 +11,24 @@
 <script src="../home/home.js"></script>
 </head>
 <body>
+  <!--Welcome Intro-->
   <div class="wlcm">
+    <!--Navbar-->
     <div class="container-fluid navbar navbar-dark">
       <div class="container-fluid">
+        <!--Navbar left side-->
         <div class="container logo-area col-12 col-sm-6 col-lg-6 col-md-6 mx-0">
           <p class="navbar-brand" style="margin: 0;"></p>
           <img src="../home/img/download-1.jpg" class="rounded-circle" width="70px">
           <h4 class="text-white" style="display: inline; padding-left: 12px;">Momma's Pets</h4>
+          <!--Offcanvas-->
         <div class="offcanvas offcanvas-start bg-dark" id="ofc">
           <div class="offcanvas-header">
             <h1 class="offcanvas-title">Looking for...</h1>
+            <!--Offcanvas Close Button-->
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
           </div>
+          <!--Offcanvas info-->
           <div class="offcanvas-body">
             <div class="list-group list-group-flush" style="border-radius: 10px;">
               <a href="#" class="list-group-item sidebar-link">Dogs</a>  
@@ -37,19 +43,21 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         </div>
+        <!--Navbar menu, links-->
         <div class="navbar-nav row mx-auto col-11 col-sm-6 col-md-6 col-lg-6" style="display: inline; margin-right: 10px;">
-          <a class="menu-link col-12 col-sm-2 col-md-2 col-lg-2 " href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">About</a>
-          <a class="menu-link col-10 col-sm-2 col-md-2 col-lg-2" href="https://www.youtube.com/watch?v=wnedkVrgFF0">Contact</a>
-          <a class="menu-link col-8 col-sm-2 col-md-2 col-lg-2" href="https://www.youtube.com/watch?v=hRPpgleML1o">Profile</a>
-          <a class="menu-link col-6 col-sm-2 col-md-2 col-lg-2"s href="https://www.youtube.com/watch?v=gbW-OgSG5-0&list=PLfKusv3iKCEjlsm8aMv7d3cOv4vfyhEXG&index=8">Cart</a>
-        </div>  
+          <a class="menu-link col-12 col-sm-2 col-md-2 col-lg-2" href="../about/about.html">About</a>
+          <a class="menu-link col-10 col-sm-2 col-md-2 col-lg-2" href="../contact/contact.html">Contact</a>
+          <a class="menu-link col-8 col-sm-2 col-md-2 col-lg-2 active" href="../account/account.html">Register</a>
+          <a class="menu-link col-6 col-sm-2 col-md-2 col-lg-2"s href="../basket/basket.html">Cart</a>
+        </div> 
         </div>
     </div>
+    <!--Welcoming text and button-->
     <div class="container-fluid greeting">
       <h1 class="welcome-text">Welcome to Momma's Pet Shop</h1>
       <hr class="grt-line">
       <p class="minor-txt">Let's find the ideal pet for you</p>
-          <!-- Button trigger modal -->
+          <!-- Button to activate modal -->
       <button type="button" class="btn grt-btn" data-bs-toggle="modal" data-bs-target="#modal-form">
         Get Started
       </button>
@@ -63,7 +71,9 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
+              <!--Modal Form for better search-->
               <form action="#">
+                <!--Select Options-->
                 <label for="animals">Select type of animal</label>
                 <select name="animals" id="animals">
                   <option value="dog">Dog</option>
@@ -72,14 +82,16 @@
                   <option value="bird">Bird</option>
                   <option value="rabbit">Rabbit</option>
                 </select>
+                <!--Select Options-->
                 <label for="breed">Select the breed</label>
                 <select name="breed" id="breed">
-                  <option value="dog">Dog</option>
-                  <option value="cat">Cat</option>
-                  <option value="fish">Fish</option>
-                  <option value="bird">Bird</option>
-                  <option value="rabbit">Rabbit</option>
+                  <option value="dog">Retriever</option>
+                  <option value="cat">Husky</option>
+                  <option value="fish">Beagle</option>
+                  <option value="bird">Poodle</option>
+                  <option value="rabbit">Terrier</option>
                 </select>
+                <!--Select Options-->
                 <label for="location">Select your location</label>
                 <select name="location" id="location">
                   <option value="man">Manchester</option>
@@ -96,30 +108,38 @@
       </div> 
     </div>  
   </div>
+  <!--Client companies-->
   <section class="clients section-bg" id="clients">
     <div class="container">
       <div class="row">
+        <!--Company example-->
         <div class="client-img col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
           <img src="../home/img/microsoft.png" alt="Microsoft" class="img-fluid">
         </div>
+        <!--Company example-->
         <div class="client-img col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
           <img src="../home/img/apple1.png" alt="Apple" class="img-fluid">
         </div>
+        <!--Company example-->
         <div class="client-img col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
           <img src="../home/img/unilever.png" alt="Unilever" class="img-fluid">
         </div>
+        <!--Company example-->
         <div class="client-img col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
           <img src="../home/img/amazon.png" alt="Amazon" class="img-fluid">
         </div>
+        <!--Company example-->
         <div class="client-img col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
           <img src="../home/img/hsbc.png" alt="HSBC" class="img-fluid">
         </div>
+        <!--Company example-->
         <div class="client-img col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
           <img src="../home/img/tesla2.png" alt="Tesla" class="img-fluid">
         </div>
       </div>
     </div>
   </section>
+  <!--Popular Listings-->
   <section class="feed">
     <div class="container">
       <div class="feed-title">
@@ -127,18 +147,54 @@
         <hr>
       </div>
       <div class="feed-container row" style="position: relative;">
+        <!--Listing example-->
         <div class="col-lg-4 col-md-6 feed-item filter-app" style="position: relative;">
           <img src="../home/img/portfolio-2.jpg" alt="Feed1" class="img-fluid">
           <div class="feed-info">
             <h4>Product</h4>
             <a href="../home/img/portfolio-2.jpg" data-gallery="feedGallery" class="feed-lightbox preview-link" title="Product1">
-              <i class="bx bx-plus">
-                ::before
-              </i>
+              
+            </a>
+            <!--Was supposed to direct to details.hmtl, but not complete-->
+            <a href="feed-details.html" data-gallery="feedDetailsGallery" data-g-lightbox="type:external" class="feed-details-lightbox details-link" title="Feed Details">
+             
+            </a>
+          </div>
+        </div>
+        <!--Same listing examples-->
+        <div class="col-lg-4 col-md-6 feed-item filter-web" style="position: relative;">
+          <img src="../home/img/portfolio-2.jpg" alt="Feed1" class="img-fluid">
+          <div class="feed-info">
+            <h4>Product</h4>
+            <a href="../home/img/portfolio-2.jpg" data-gallery="feedGallery" class="feed-lightbox preview-link" title="Product1">
+          
             </a>
             <a href="feed-details.html" data-gallery="feedDetailsGallery" data-g-lightbox="type:external" class="feed-details-lightbox details-link" title="Feed Details">
-              <i class="bx bx-link">::before
-              </i>
+              
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 feed-item filter-app" style="position: relative;">
+          <img src="../home/img/portfolio-2.jpg" alt="Feed1" class="img-fluid">
+          <div class="feed-info">
+            <h4>Product</h4>
+            <a href="../home/img/portfolio-2.jpg" data-gallery="feedGallery" class="feed-lightbox preview-link" title="Product1">
+              
+            </a>
+            <a href="feed-details.html" data-gallery="feedDetailsGallery" data-g-lightbox="type:external" class="feed-details-lightbox details-link" title="Feed Details">
+            
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 feed-item filter-card" style="position: relative;">
+          <img src="../home/img/portfolio-2.jpg" alt="Feed1" class="img-fluid">
+          <div class="feed-info">
+            <h4>Product</h4>
+            <a href="../home/img/portfolio-2.jpg" data-gallery="feedGallery" class="feed-lightbox preview-link" title="Product1">
+             
+            </a>
+            <a href="feed-details.html" data-gallery="feedDetailsGallery" data-g-lightbox="type:external" class="feed-details-lightbox details-link" title="Feed Details">
+             
             </a>
           </div>
         </div>
@@ -147,13 +203,10 @@
           <div class="feed-info">
             <h4>Product</h4>
             <a href="../home/img/portfolio-2.jpg" data-gallery="feedGallery" class="feed-lightbox preview-link" title="Product1">
-              <i class="bx bx-plus">
-                ::before
-              </i>
+            
             </a>
             <a href="feed-details.html" data-gallery="feedDetailsGallery" data-g-lightbox="type:external" class="feed-details-lightbox details-link" title="Feed Details">
-              <i class="bx bx-link">::before
-              </i>
+            
             </a>
           </div>
         </div>
@@ -162,13 +215,10 @@
           <div class="feed-info">
             <h4>Product</h4>
             <a href="../home/img/portfolio-2.jpg" data-gallery="feedGallery" class="feed-lightbox preview-link" title="Product1">
-              <i class="bx bx-plus">
-                ::before
-              </i>
+             
             </a>
             <a href="feed-details.html" data-gallery="feedDetailsGallery" data-g-lightbox="type:external" class="feed-details-lightbox details-link" title="Feed Details">
-              <i class="bx bx-link">::before
-              </i>
+           
             </a>
           </div>
         </div>
@@ -177,43 +227,10 @@
           <div class="feed-info">
             <h4>Product</h4>
             <a href="../home/img/portfolio-2.jpg" data-gallery="feedGallery" class="feed-lightbox preview-link" title="Product1">
-              <i class="bx bx-plus">
-                ::before
-              </i>
+            
             </a>
             <a href="feed-details.html" data-gallery="feedDetailsGallery" data-g-lightbox="type:external" class="feed-details-lightbox details-link" title="Feed Details">
-              <i class="bx bx-link">::before
-              </i>
-            </a>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 feed-item filter-web" style="position: relative;">
-          <img src="../home/img/portfolio-2.jpg" alt="Feed1" class="img-fluid">
-          <div class="feed-info">
-            <h4>Product</h4>
-            <a href="../home/img/portfolio-2.jpg" data-gallery="feedGallery" class="feed-lightbox preview-link" title="Product1">
-              <i class="bx bx-plus">
-                ::before
-              </i>
-            </a>
-            <a href="feed-details.html" data-gallery="feedDetailsGallery" data-g-lightbox="type:external" class="feed-details-lightbox details-link" title="Feed Details">
-              <i class="bx bx-link">::before
-              </i>
-            </a>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 feed-item filter-app" style="position: relative;">
-          <img src="../home/img/portfolio-2.jpg" alt="Feed1" class="img-fluid">
-          <div class="feed-info">
-            <h4>Product</h4>
-            <a href="../home/img/portfolio-2.jpg" data-gallery="feedGallery" class="feed-lightbox preview-link" title="Product1">
-              <i class="bx bx-plus">
-                ::before
-              </i>
-            </a>
-            <a href="feed-details.html" data-gallery="feedDetailsGallery" data-g-lightbox="type:external" class="feed-details-lightbox details-link" title="Feed Details">
-              <i class="bx bx-link">::before
-              </i>
+             
             </a>
           </div>
         </div>
@@ -222,47 +239,33 @@
           <div class="feed-info">
             <h4>Product</h4>
             <a href="../home/img/portfolio-2.jpg" data-gallery="feedGallery" class="feed-lightbox preview-link" title="Product1">
-              <i class="bx bx-plus">
-                ::before
-              </i>
+            
             </a>
             <a href="feed-details.html" data-gallery="feedDetailsGallery" data-g-lightbox="type:external" class="feed-details-lightbox details-link" title="Feed Details">
-              <i class="bx bx-link">::before
-              </i>
-            </a>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 feed-item filter-card" style="position: relative;">
-          <img src="../home/img/portfolio-2.jpg" alt="Feed1" class="img-fluid">
-          <div class="feed-info">
-            <h4>Product</h4>
-            <a href="../home/img/portfolio-2.jpg" data-gallery="feedGallery" class="feed-lightbox preview-link" title="Product1">
-              <i class="bx bx-plus">
-                ::before
-              </i>
-            </a>
-            <a href="feed-details.html" data-gallery="feedDetailsGallery" data-g-lightbox="type:external" class="feed-details-lightbox details-link" title="Feed Details">
-              <i class="bx bx-link">::before
-              </i>
+             
             </a>
           </div>
         </div>
       </div>
     </div>
   </section>
+  <!--Contact-->
   <section class="contact">
     <div class="container">
       <div class="text-center">
         <h3 style="font-size: 30px;">Contact Us</h3>
         <p style="font-size: 20px; margin-bottom: 10px;">If you're having some problems using a website see the User Guide in my report or contact me directly.</p>
         <p style="font-size: 20px;">Thanks, Matt</p>
+        <!--Contact us button-->
         <a class="contact-btn" href="../contact/contact.html">Contacts</a>
       </div>
     </div>
   </section>
+  <!--FAQs-->
   <section id="faq" class="faq section-bg">
     <div class="container">
       <div class="faq-title">
+        <!--FAQ example-->
         <h2>Frequently Asked Questions</h2>
         <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
       </div>
@@ -270,14 +273,16 @@
       <div class="faq-list">
         <ul>
           <li data-aos="fade-up" data-aos-delay="100">
+            <!--Question-->
             <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-info-2" class="collapsed" aria-expanded="false">Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-            <div id="faq-info-2" class="collapse" data-bs-parent=".faq-list" style="">
+            <div id="faq-info-2" class="collapse" data-bs-parent=".faq-list">
+             <!--Answer-->
               <p>
                 Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
               </p>
             </div>
           </li>
-
+          <!--Same examples-->
           <li data-aos="fade-up" data-aos-delay="200">
             <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-info-3" class="collapsed" aria-expanded="false">Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
             <div id="faq-info-3" class="collapse" data-bs-parent=".faq-list">
@@ -308,24 +313,15 @@
       </div>
     </div>
   </section>
+  <!--Footer-->
   <footer id="footer">
     <div class="container d-md-flex py-4">
       <div class="me-md-auto text-center text-md-start">
         <div class="copyright">
-          © Copyright <strong><span>MAS012</span></strong>. All Rights Reserved
+          &copy; Copyright <strong><span>MAS012</span></strong>. All Rights Reserved
         </div>
-      </div>
-      <div class="social-links text-center text-md-right pt-3 pt-md-0">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
     </div>
   </footer>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 </body>
 </html>

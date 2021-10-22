@@ -61,3 +61,11 @@ click();
 prChoose();
 payment();
 click();
+
+$('.add').click(function(event) {
+    event.preventDefault();
+    var name = $(this).data('name');
+    var price = Number($(this).data('price'));
+    shoppingCart.addItemToCart(name, price, 1);
+    displayCart();
+  });

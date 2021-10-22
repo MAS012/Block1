@@ -1,20 +1,26 @@
-<!DOCTYPE html>
-<html>
-    <head>
+function formF() {
+    var mail = document.getElementById("email").value.indexOf("@",".com");
+    var fname = document.getElementById("fname").value;
+    var sname = document.getElementById("sname").value;
+    submitOK = "true";
 
-    </head>
-    <body>
+    if (fname.length < 1 || fname.length > 10) {
+        document.getElementById("warning1").style.display = "inline";
+        submitOK = "false";
+    }
+    if (sname.length < 1 || sname.length > 10) {
+        document.getElementById("warning2").style.display = "inline";
+        submitOK = "false";
+    }
+    if (mail == -1) {
+        document.getElementById("warning3").style.display = "inline";
+        submitOK = "false";
 
-    </body>
+    }
+    if (submitOK == "false") {
+        return false;
+    }
+    else return true;
+        
 
-    <Script>
-        const marvel = [
-            "Iron-Man",
-            "Thor",
-            "Captain America",
-            "Spider Man"
-        ]
-        marvel.push("Quicksilver")
-        console.log(marvel[4])
-    </Script>
-    </html>
+}
