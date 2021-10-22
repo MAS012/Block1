@@ -4,7 +4,7 @@
 }
 /* Welcome Page Beginning */
 .wlcm {
-    background-image: url(/home/img/cat1.jpg);
+    background-image: url(/home/img/cat.jpg);
     height: 850px;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
